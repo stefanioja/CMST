@@ -11,7 +11,6 @@ import org.graph4j.util.UnionFind;
 
 public class EsauWilliamsOptimized extends CapacitatedMinimumSpanningTreeBase {
 
-    public boolean flag = false;
     public EsauWilliamsOptimized(Graph g, int root, int capacity, int[] demands) {
         super(g, root, capacity, demands);
     }
